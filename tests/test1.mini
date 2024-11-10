@@ -1,0 +1,17 @@
+chan (server,127.0.0.1:50007);
+seq {
+    x = 1;
+    print(x);
+    y = 2;
+    print(y);
+    z = x + y;
+    print(z);
+}
+seq {
+    x = 3;
+    print(x);
+    y = 4;
+    print(y);
+    z = x + y;
+    print(z);
+}

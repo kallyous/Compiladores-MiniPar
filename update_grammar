@@ -1,0 +1,2 @@
+#!/bin/bash
+pipenv run antlr4 -Dlanguage=Python3 -visitor -o grammar/ MiniPar.g4

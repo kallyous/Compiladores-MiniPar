@@ -1,0 +1,8 @@
+chan (server,127.0.0.1:50007);
+seq {
+    a = 1;
+    while (a <= 5) {
+        print(a);
+        a = a + 1;
+    }
+}

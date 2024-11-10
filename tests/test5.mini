@@ -1,0 +1,11 @@
+chan (server,127.0.0.1:50007);
+seq {
+    n = 10;
+    resultado = 1;
+    while (n > 1) {
+        resultado = resultado * n;
+        n = n - 1;
+        print(resultado);
+    }
+    print(resultado);
+}

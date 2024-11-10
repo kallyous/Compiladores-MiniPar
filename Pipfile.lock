@@ -1,0 +1,45 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "50c44ba7827e268f5d03bf10abfeda95b43249ba7ebfda0badac6ba5a05babda"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.12"
+        },
+        "sources": [
+            {
+                "name": "pip_conf_index_global",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": false
+            }
+        ]
+    },
+    "default": {
+        "antlr4-python3-runtime": {
+            "hashes": [
+                "sha256:909b647e1d2fc2b70180ac586df3933e38919c85f98ccc656a96cd3f25ef3916",
+                "sha256:fe3835eb8d33daece0e799090eda89719dbccee7aa39ef94eed3818cafa5a7e8"
+            ],
+            "index": "pip_conf_index_global",
+            "version": "==4.13.2"
+        },
+        "antlr4-tools": {
+            "hashes": [
+                "sha256:71bfe6d5f856cbf69e69c4ad1750eb8f2c84e72b07780efabced6a8e5194f2e4",
+                "sha256:eabad95c7d6b2e15b9875f630e6695395f90ed557721aeef7844d5821ac1ca6a"
+            ],
+            "index": "pip_conf_index_global",
+            "version": "==0.2.1"
+        },
+        "install-jdk": {
+            "hashes": [
+                "sha256:2bfd53caf660e4916df0215a5715519dcb9547fa2a5f07421fd97a8046851eaa",
+                "sha256:b63f0fcd63f7abab3443d4120ba92716397753b8a8ea3c85762a629925a9936e"
+            ],
+            "markers": "python_version >= '3.6' and python_version < '4.0'",
+            "version": "==1.1.0"
+        }
+    },
+    "develop": {}
+}
