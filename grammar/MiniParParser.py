@@ -10,7 +10,7 @@ else:
 
 def serializedATN():
     return [
-        4,1,29,139,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,30,140,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,1,0,1,0,1,0,5,0,26,8,0,10,0,
         12,0,29,9,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,2,1,2,
         5,2,44,8,2,10,2,12,2,47,9,2,1,2,1,2,1,3,1,3,1,3,5,3,54,8,3,10,3,
@@ -18,19 +18,19 @@ def serializedATN():
         5,1,6,1,6,1,6,1,6,1,6,1,6,5,6,78,8,6,10,6,12,6,81,9,6,1,6,1,6,3,
         6,85,8,6,1,7,1,7,1,7,5,7,90,8,7,10,7,12,7,93,9,7,1,7,1,7,1,8,1,8,
         1,8,1,8,1,8,1,8,5,8,103,8,8,10,8,12,8,106,9,8,1,8,1,8,1,9,1,9,1,
-        9,1,9,1,9,1,9,1,10,1,10,1,10,1,10,1,10,1,10,1,10,3,10,123,8,10,1,
-        10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,5,10,134,8,10,10,10,12,
-        10,137,9,10,1,10,0,1,20,11,0,2,4,6,8,10,12,14,16,18,20,0,3,1,0,11,
-        12,1,0,13,14,1,0,15,20,143,0,22,1,0,0,0,2,32,1,0,0,0,4,40,1,0,0,
-        0,6,50,1,0,0,0,8,64,1,0,0,0,10,66,1,0,0,0,12,71,1,0,0,0,14,86,1,
-        0,0,0,16,96,1,0,0,0,18,109,1,0,0,0,20,122,1,0,0,0,22,27,3,2,1,0,
-        23,26,3,4,2,0,24,26,3,6,3,0,25,23,1,0,0,0,25,24,1,0,0,0,26,29,1,
-        0,0,0,27,25,1,0,0,0,27,28,1,0,0,0,28,30,1,0,0,0,29,27,1,0,0,0,30,
-        31,5,0,0,1,31,1,1,0,0,0,32,33,5,1,0,0,33,34,5,2,0,0,34,35,5,27,0,
-        0,35,36,5,3,0,0,36,37,5,29,0,0,37,38,5,4,0,0,38,39,5,5,0,0,39,3,
-        1,0,0,0,40,41,5,6,0,0,41,45,5,7,0,0,42,44,3,8,4,0,43,42,1,0,0,0,
-        44,47,1,0,0,0,45,43,1,0,0,0,45,46,1,0,0,0,46,48,1,0,0,0,47,45,1,
-        0,0,0,48,49,5,8,0,0,49,5,1,0,0,0,50,51,5,9,0,0,51,55,5,7,0,0,52,
+        9,1,9,1,9,1,9,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,3,10,124,8,
+        10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,1,10,5,10,135,8,10,10,
+        10,12,10,138,9,10,1,10,0,1,20,11,0,2,4,6,8,10,12,14,16,18,20,0,3,
+        1,0,11,12,1,0,13,14,1,0,15,20,145,0,22,1,0,0,0,2,32,1,0,0,0,4,40,
+        1,0,0,0,6,50,1,0,0,0,8,64,1,0,0,0,10,66,1,0,0,0,12,71,1,0,0,0,14,
+        86,1,0,0,0,16,96,1,0,0,0,18,109,1,0,0,0,20,123,1,0,0,0,22,27,3,2,
+        1,0,23,26,3,4,2,0,24,26,3,6,3,0,25,23,1,0,0,0,25,24,1,0,0,0,26,29,
+        1,0,0,0,27,25,1,0,0,0,27,28,1,0,0,0,28,30,1,0,0,0,29,27,1,0,0,0,
+        30,31,5,0,0,1,31,1,1,0,0,0,32,33,5,1,0,0,33,34,5,2,0,0,34,35,5,27,
+        0,0,35,36,5,3,0,0,36,37,5,29,0,0,37,38,5,4,0,0,38,39,5,5,0,0,39,
+        3,1,0,0,0,40,41,5,6,0,0,41,45,5,7,0,0,42,44,3,8,4,0,43,42,1,0,0,
+        0,44,47,1,0,0,0,45,43,1,0,0,0,45,46,1,0,0,0,46,48,1,0,0,0,47,45,
+        1,0,0,0,48,49,5,8,0,0,49,5,1,0,0,0,50,51,5,9,0,0,51,55,5,7,0,0,52,
         54,3,8,4,0,53,52,1,0,0,0,54,57,1,0,0,0,55,53,1,0,0,0,55,56,1,0,0,
         0,56,58,1,0,0,0,57,55,1,0,0,0,58,59,5,8,0,0,59,7,1,0,0,0,60,65,3,
         10,5,0,61,65,3,12,6,0,62,65,3,16,8,0,63,65,3,18,9,0,64,60,1,0,0,
@@ -48,13 +48,14 @@ def serializedATN():
         1,0,0,0,107,108,5,8,0,0,108,17,1,0,0,0,109,110,5,24,0,0,110,111,
         5,2,0,0,111,112,3,20,10,0,112,113,5,4,0,0,113,114,5,5,0,0,114,19,
         1,0,0,0,115,116,6,10,-1,0,116,117,5,2,0,0,117,118,3,20,10,0,118,
-        119,5,4,0,0,119,123,1,0,0,0,120,123,5,27,0,0,121,123,5,28,0,0,122,
-        115,1,0,0,0,122,120,1,0,0,0,122,121,1,0,0,0,123,135,1,0,0,0,124,
-        125,10,6,0,0,125,126,7,0,0,0,126,134,3,20,10,7,127,128,10,5,0,0,
-        128,129,7,1,0,0,129,134,3,20,10,6,130,131,10,4,0,0,131,132,7,2,0,
-        0,132,134,3,20,10,5,133,124,1,0,0,0,133,127,1,0,0,0,133,130,1,0,
-        0,0,134,137,1,0,0,0,135,133,1,0,0,0,135,136,1,0,0,0,136,21,1,0,0,
-        0,137,135,1,0,0,0,12,25,27,45,55,64,79,84,91,104,122,133,135
+        119,5,4,0,0,119,124,1,0,0,0,120,124,5,27,0,0,121,124,5,28,0,0,122,
+        124,5,30,0,0,123,115,1,0,0,0,123,120,1,0,0,0,123,121,1,0,0,0,123,
+        122,1,0,0,0,124,136,1,0,0,0,125,126,10,7,0,0,126,127,7,0,0,0,127,
+        135,3,20,10,8,128,129,10,6,0,0,129,130,7,1,0,0,130,135,3,20,10,7,
+        131,132,10,5,0,0,132,133,7,2,0,0,133,135,3,20,10,6,134,125,1,0,0,
+        0,134,128,1,0,0,0,134,131,1,0,0,0,135,138,1,0,0,0,136,134,1,0,0,
+        0,136,137,1,0,0,0,137,21,1,0,0,0,138,136,1,0,0,0,12,25,27,45,55,
+        64,79,84,91,104,123,134,136
     ]
 
 class MiniParParser ( Parser ):
@@ -78,7 +79,7 @@ class MiniParParser ( Parser ):
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
                       "<INVALID>", "<INVALID>", "<INVALID>", "<INVALID>", 
                       "<INVALID>", "IF", "ELSE", "WHILE", "PRINT", "NEWLINE", 
-                      "WHITESPACE", "ID", "INT", "ADDR" ]
+                      "WHITESPACE", "ID", "INT", "ADDR", "STRING" ]
 
     RULE_prog = 0
     RULE_channel = 1
@@ -125,6 +126,7 @@ class MiniParParser ( Parser ):
     ID=27
     INT=28
     ADDR=29
+    STRING=30
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -180,9 +182,6 @@ class MiniParParser ( Parser ):
             else:
                 return visitor.visitChildren(self)
 
-
-
-
     def prog(self):
 
         localctx = MiniParParser.ProgContext(self, self._ctx, self.state)
@@ -225,6 +224,7 @@ class MiniParParser ( Parser ):
         return localctx
 
 
+
     class ChannelContext(ParserRuleContext):
         __slots__ = 'parser'
 
@@ -255,9 +255,6 @@ class MiniParParser ( Parser ):
             else:
                 return visitor.visitChildren(self)
 
-
-
-
     def channel(self):
 
         localctx = MiniParParser.ChannelContext(self, self._ctx, self.state)
@@ -285,6 +282,7 @@ class MiniParParser ( Parser ):
         finally:
             self.exitRule()
         return localctx
+
 
 
     class SeqContext(ParserRuleContext):
@@ -318,9 +316,6 @@ class MiniParParser ( Parser ):
             else:
                 return visitor.visitChildren(self)
 
-
-
-
     def seq(self):
 
         localctx = MiniParParser.SeqContext(self, self._ctx, self.state)
@@ -351,6 +346,7 @@ class MiniParParser ( Parser ):
         finally:
             self.exitRule()
         return localctx
+
 
 
     class ParContext(ParserRuleContext):
@@ -384,9 +380,6 @@ class MiniParParser ( Parser ):
             else:
                 return visitor.visitChildren(self)
 
-
-
-
     def par(self):
 
         localctx = MiniParParser.ParContext(self, self._ctx, self.state)
@@ -417,6 +410,7 @@ class MiniParParser ( Parser ):
         finally:
             self.exitRule()
         return localctx
+
 
 
     class StmtContext(ParserRuleContext):
@@ -459,9 +453,6 @@ class MiniParParser ( Parser ):
             else:
                 return visitor.visitChildren(self)
 
-
-
-
     def stmt(self):
 
         localctx = MiniParParser.StmtContext(self, self._ctx, self.state)
@@ -502,6 +493,7 @@ class MiniParParser ( Parser ):
         return localctx
 
 
+
     class AtribuicaoContext(ParserRuleContext):
         __slots__ = 'parser'
 
@@ -533,9 +525,6 @@ class MiniParParser ( Parser ):
             else:
                 return visitor.visitChildren(self)
 
-
-
-
     def atribuicao(self):
 
         localctx = MiniParParser.AtribuicaoContext(self, self._ctx, self.state)
@@ -557,6 +546,7 @@ class MiniParParser ( Parser ):
         finally:
             self.exitRule()
         return localctx
+
 
 
     class CondicionalContext(ParserRuleContext):
@@ -600,9 +590,6 @@ class MiniParParser ( Parser ):
                 return visitor.visitCondicional(self)
             else:
                 return visitor.visitChildren(self)
-
-
-
 
     def condicional(self):
 
@@ -650,6 +637,7 @@ class MiniParParser ( Parser ):
         return localctx
 
 
+
     class Condicional_elseContext(ParserRuleContext):
         __slots__ = 'parser'
 
@@ -684,9 +672,6 @@ class MiniParParser ( Parser ):
             else:
                 return visitor.visitChildren(self)
 
-
-
-
     def condicional_else(self):
 
         localctx = MiniParParser.Condicional_elseContext(self, self._ctx, self.state)
@@ -717,6 +702,7 @@ class MiniParParser ( Parser ):
         finally:
             self.exitRule()
         return localctx
+
 
 
     class LoopContext(ParserRuleContext):
@@ -757,9 +743,6 @@ class MiniParParser ( Parser ):
             else:
                 return visitor.visitChildren(self)
 
-
-
-
     def loop(self):
 
         localctx = MiniParParser.LoopContext(self, self._ctx, self.state)
@@ -798,6 +781,7 @@ class MiniParParser ( Parser ):
         return localctx
 
 
+
     class PrintContext(ParserRuleContext):
         __slots__ = 'parser'
 
@@ -829,9 +813,6 @@ class MiniParParser ( Parser ):
             else:
                 return visitor.visitChildren(self)
 
-
-
-
     def print_(self):
 
         localctx = MiniParParser.PrintContext(self, self._ctx, self.state)
@@ -857,6 +838,7 @@ class MiniParParser ( Parser ):
         return localctx
 
 
+
     class ExprContext(ParserRuleContext):
         __slots__ = 'parser'
 
@@ -878,6 +860,9 @@ class MiniParParser ( Parser ):
         def INT(self):
             return self.getToken(MiniParParser.INT, 0)
 
+        def STRING(self):
+            return self.getToken(MiniParParser.STRING, 0)
+
         def getRuleIndex(self):
             return MiniParParser.RULE_expr
 
@@ -895,8 +880,6 @@ class MiniParParser ( Parser ):
             else:
                 return visitor.visitChildren(self)
 
-
-
     def expr(self, _p:int=0):
         _parentctx = self._ctx
         _parentState = self.state
@@ -907,7 +890,7 @@ class MiniParParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 122
+            self.state = 123
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [2]:
@@ -926,11 +909,15 @@ class MiniParParser ( Parser ):
                 self.state = 121
                 self.match(MiniParParser.INT)
                 pass
+            elif token in [30]:
+                self.state = 122
+                self.match(MiniParParser.STRING)
+                pass
             else:
                 raise NoViableAltException(self)
 
             self._ctx.stop = self._input.LT(-1)
-            self.state = 135
+            self.state = 136
             self._errHandler.sync(self)
             _alt = self._interp.adaptivePredict(self._input,11,self._ctx)
             while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
@@ -938,17 +925,17 @@ class MiniParParser ( Parser ):
                     if self._parseListeners is not None:
                         self.triggerExitRuleEvent()
                     _prevctx = localctx
-                    self.state = 133
+                    self.state = 134
                     self._errHandler.sync(self)
                     la_ = self._interp.adaptivePredict(self._input,10,self._ctx)
                     if la_ == 1:
                         localctx = MiniParParser.ExprContext(self, _parentctx, _parentState)
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 124
-                        if not self.precpred(self._ctx, 6):
-                            from antlr4.error.Errors import FailedPredicateException
-                            raise FailedPredicateException(self, "self.precpred(self._ctx, 6)")
                         self.state = 125
+                        if not self.precpred(self._ctx, 7):
+                            from antlr4.error.Errors import FailedPredicateException
+                            raise FailedPredicateException(self, "self.precpred(self._ctx, 7)")
+                        self.state = 126
                         localctx.op = self._input.LT(1)
                         _la = self._input.LA(1)
                         if not(_la==11 or _la==12):
@@ -956,18 +943,18 @@ class MiniParParser ( Parser ):
                         else:
                             self._errHandler.reportMatch(self)
                             self.consume()
-                        self.state = 126
-                        self.expr(7)
+                        self.state = 127
+                        self.expr(8)
                         pass
 
                     elif la_ == 2:
                         localctx = MiniParParser.ExprContext(self, _parentctx, _parentState)
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 127
-                        if not self.precpred(self._ctx, 5):
-                            from antlr4.error.Errors import FailedPredicateException
-                            raise FailedPredicateException(self, "self.precpred(self._ctx, 5)")
                         self.state = 128
+                        if not self.precpred(self._ctx, 6):
+                            from antlr4.error.Errors import FailedPredicateException
+                            raise FailedPredicateException(self, "self.precpred(self._ctx, 6)")
+                        self.state = 129
                         localctx.op = self._input.LT(1)
                         _la = self._input.LA(1)
                         if not(_la==13 or _la==14):
@@ -975,18 +962,18 @@ class MiniParParser ( Parser ):
                         else:
                             self._errHandler.reportMatch(self)
                             self.consume()
-                        self.state = 129
-                        self.expr(6)
+                        self.state = 130
+                        self.expr(7)
                         pass
 
                     elif la_ == 3:
                         localctx = MiniParParser.ExprContext(self, _parentctx, _parentState)
                         self.pushNewRecursionContext(localctx, _startState, self.RULE_expr)
-                        self.state = 130
-                        if not self.precpred(self._ctx, 4):
-                            from antlr4.error.Errors import FailedPredicateException
-                            raise FailedPredicateException(self, "self.precpred(self._ctx, 4)")
                         self.state = 131
+                        if not self.precpred(self._ctx, 5):
+                            from antlr4.error.Errors import FailedPredicateException
+                            raise FailedPredicateException(self, "self.precpred(self._ctx, 5)")
+                        self.state = 132
                         localctx.op = self._input.LT(1)
                         _la = self._input.LA(1)
                         if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 2064384) != 0)):
@@ -994,12 +981,12 @@ class MiniParParser ( Parser ):
                         else:
                             self._errHandler.reportMatch(self)
                             self.consume()
-                        self.state = 132
-                        self.expr(5)
+                        self.state = 133
+                        self.expr(6)
                         pass
 
              
-                self.state = 137
+                self.state = 138
                 self._errHandler.sync(self)
                 _alt = self._interp.adaptivePredict(self._input,11,self._ctx)
 
@@ -1013,6 +1000,7 @@ class MiniParParser ( Parser ):
 
 
 
+
     def sempred(self, localctx:RuleContext, ruleIndex:int, predIndex:int):
         if self._predicates == None:
             self._predicates = dict()
@@ -1023,17 +1011,19 @@ class MiniParParser ( Parser ):
         else:
             return pred(localctx, predIndex)
 
+
+
     def expr_sempred(self, localctx:ExprContext, predIndex:int):
             if predIndex == 0:
-                return self.precpred(self._ctx, 6)
+                return self.precpred(self._ctx, 7)
          
 
             if predIndex == 1:
-                return self.precpred(self._ctx, 5)
+                return self.precpred(self._ctx, 6)
          
 
             if predIndex == 2:
-                return self.precpred(self._ctx, 4)
+                return self.precpred(self._ctx, 5)
          
 
 

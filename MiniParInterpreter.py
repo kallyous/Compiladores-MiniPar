@@ -50,17 +50,23 @@ class MiniParInterpreter (MiniParVisitor):
             eval_str = self.visit(ctx.expr(0))
 
         host, port = self.channel.split(':')
-        with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-            # print('Connecting to', host, int(port), 'to send', eval_str)
-            s.connect((host, int(port)))
-            s.sendall(eval_str.encode())
-            data = s.recv(1024).decode()
-            if data == 'None':
-                return None
-            if data == 'True':
-                return True
-            if data == 'False':
-                return False
-            if data.startswith('Error'):
-                raise Exception(data)
-            return data
+        try:
+            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+                # print('Connecting to', host, int(port), 'to send', eval_str)
+                s.connect((host, int(port)))
+                s.sendall(eval_str.encode())
+                data = s.recv(1024).decode()
+                if data == 'None':
+                    return None
+                if data == 'True':
+                    return True
+                if data == 'False':
+                    return False
+                if data.startswith('Error'):
+                    raise Exception(data)
+                return data
+
+        except ConnectionRefusedError as e:
+            print(f"ERRO: Servidor não encontrado em {host}:{port}")
+            print(e)
+            exit(1)

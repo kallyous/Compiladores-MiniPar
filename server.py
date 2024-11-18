@@ -1,6 +1,7 @@
 import socket
 import threading
 
+
 def handle_client(client_socket):
     try:
         expression = client_socket.recv(1024).decode('utf-8')
@@ -13,6 +14,7 @@ def handle_client(client_socket):
         # print(f"Sent result: {result}")
     finally:
         client_socket.close()
+
 
 def start_server(host='0.0.0.0', port=50007):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:

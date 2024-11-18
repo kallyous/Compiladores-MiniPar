@@ -1,4 +1,4 @@
-chan (server,127.0.0.1:50007);
+chan (server,127.0.0.1:50005);
 par {
     x = 1;
     print(x);

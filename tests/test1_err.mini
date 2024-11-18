@@ -1,16 +1,16 @@
 chan (server,127.0.0.1:50007);
-par {
+seq {
     x = 1;
     print(x);
     y = 2;
     print(y);
-    z = x + y;
+    z = x + y
     print(z);
 }
-par {
-    x = 4;
+seq {
+    x = 3;
     print(x);
-    y = 5;
+    y = 4;
     print(y);
     z = x + y;
     print(z);

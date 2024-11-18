@@ -27,6 +27,7 @@ WHITESPACE=26
 ID=27
 INT=28
 ADDR=29
+STRING=30
 'chan'=1
 '('=2
 ','=3
